@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+lightgbm>=4.0
+rapidfuzz>=3.0
+sentence-transformers>=2.6
+# torch is installed by the sentence-transformers distribution in most environments.
+# Install the optional stack only when using embeddings/Cross-Encoder:
+# pip install -r requirements.txt
